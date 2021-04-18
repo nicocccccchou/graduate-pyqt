@@ -1,0 +1,51 @@
+QGroupBox[name="headBox"]{
+    background-color: #343e46;
+}
+
+QGroupBox[name="headBox"] QPushButton{
+    color:#d6d4d4;
+    width:80px;
+    height:100px;
+    background-color:#232d36;
+    margin-left: 5px;
+
+}
+QGroupBox[name="functionBox"]{
+    border-top:2px solid #0c0e11 ;
+    background-color: #343e46;
+}
+
+QComboBox[name="projectCB"]{
+    width:120px;
+    height: 55px;
+    /*background-color: #232d36;*/
+}
+
+
+QLabel[name="videoLabel"]{
+    background-color: black;
+    color: #d6d4d4;
+    margin: auto;
+}
+
+QGroupBox[name="bottomRightBox"]{
+    border-top:2px solid #0c0e11 ;
+    /*margin: auto;*/
+    background-color: #23272f;
+}
+
+QLabel[name="relatedDataLabel"]{
+    color: #d6d4d4;
+    /*margin: auto;*/
+    width: 500px;
+    height: 400px;
+    /*margin-left: -20px;*/
+    /*border: 0px;*/
+    background-color: #343e46;
+}
+
+
+
+QLineEdit[name="smoothKsizeLine"]{
+    color: black;
+}
